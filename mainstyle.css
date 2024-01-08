@@ -1,0 +1,415 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+.redressed
+{
+   font-family: 'Redressed', cursive;
+
+}
+.merriweather
+{
+   font-family: 'Merriweather', serif;
+}
+
+.montserrat
+{
+font-family: 'Montserrat';
+}
+
+html,body{
+   overflow-x:hidden;
+  
+}
+h5 {
+   display: block;
+   font-family: 'Merriweather';
+   font-weight: 700;
+   font-size: 11px;
+   color: #817f7f;
+   line-height: 1;
+   padding: 0px 0 10px;
+   margin: 0;
+   position: relative;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+  }
+/*  Navbar CSS */
+.cc-navbar 
+{
+   background-color: rgba(0,0,0,0.55);
+   font-family: 'Merriweather', serif;
+   box-shadow: 1px 1px 3px rgba(99, 96, 96, 0.54);
+   z-index: 99;
+}
+.cc-navbar .nav-link
+{
+border-bottom: 1px solid transparent;
+transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+.nav-link 
+{
+   display: inline-block !important;
+}
+
+.cc-navbar .nav-link:hover
+{
+padding-bottom:10px;
+border-bottom-color: rgb(8, 139, 139) !important;
+}
+
+/* Banner */
+.banner
+{
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/banner.jpg)center center fixed no-repeat;
+height: 800px;
+background-size: cover;
+}
+
+.banner, .order-form
+{
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/banner.jpg)center center fixed no-repeat;
+   background-size: cover;
+
+}
+.banner .banner-desc
+{
+   font-size: 48px;
+   font-weight: 400;
+   color: #fff!important;
+   font-family: 'Montserrat';
+}
+
+/* Counter Design*/
+.cc-counter-section
+{
+   font-family: 'Merriweather', serif;
+   padding:50px;
+   background-color: rgb(0 0 0 / 50%)  !important;
+   box-shadow: 1px 1px 3px rgba(255,255,255,0.54);
+   color:white;
+   border-bottom: 1px solid transparent;
+
+}
+.cc-counter-section p
+{
+ color: rgb(255, 255, 255);
+ text-transform: uppercase;
+}
+
+/* Menu */
+.cc-menu
+{ 
+   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,20.7)), url(img/banner.jpg)center center fixed no-repeat;
+   background-size: cover;
+   height: auto;
+}
+.card-title
+{
+   color: #000 !important;
+}
+
+
+/* Button CSS*/
+.btn-order
+{
+   color: rgb(255, 255, 255) !important;
+   border-color:rgb(255, 255, 255) !important;
+  
+}
+.btn-order:hover,
+.btn-order:active
+{
+   color:rgb(0, 0, 0) !important;
+   background-color: rgb(255, 255, 255);
+}
+.btn-outline-info 
+{
+   color: #ffffff !important;
+   border-color: #ffffff !important;
+   transform: translateY(-4px);
+}
+.btn-outline-info:hover 
+{
+   color: #ffffff !important;
+   background-color: #000 !important;
+}
+
+
+
+
+/*Services*/
+#services
+{
+   position: relative; 
+   background: #f7f8f9; 
+   padding: 120px 0 110px;
+   font-family: 'Merriweather', serif;  
+}
+
+/* Features*/
+
+.title1 {
+   text-align: center;
+   color: #35373e;
+   font-weight: 700;
+   font-family: 'Montserrat';
+   font-size: 30px;
+   line-height: 1;
+   text-transform: uppercase;
+   padding-top: 20px;
+   padding-bottom: 30px;
+   margin-bottom: 15px;
+   letter-spacing: 2px;
+}
+
+#features
+{
+   position: relative; 
+   background: rgb(0, 0, 0);
+   padding: 100px 20 100px;
+}
+
+.features a
+{
+   display: block; 
+   text-decoration: none;
+   text-align: center;
+}
+
+.features a .c1
+{
+display: inline-block;
+width: 92px; 
+height: 92px; 
+background: #fff;
+border: 1px solid #d8d8d8; 
+border-radius:50%;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+margin-bottom: 20px; 
+}
+
+.features a:hover .c1
+{
+background: #000;
+border-color: #000;
+}
+
+.features a .c1 i
+{
+color: #999999;
+font-size: 30px; 
+line-height: 90px;
+}
+
+.features a:hover .c1 i
+{
+color: #fff;
+}
+
+.features a .txt1
+{
+color: #35373e; 
+font-size: 12px; 
+font-family: 'Merriweather', serif;
+letter-spacing: 1px; 
+padding-bottom: 5px;
+margin-bottom: 20px;
+}
+.features a .txt2
+{
+margin-bottom: 20px;
+}
+
+.features a .txt3
+{
+display: inline-block;
+font-family: 'Merriweather', serif;
+font-size: 11px; letter-spacing: 1px; 
+font-weight: 700; color: #35373e; 
+text-transform: uppercase; background: #fff; 
+border: 1px solid #e8e8e8; 
+padding: 13px 20px; 
+margin-bottom: 10px;
+}
+
+.features a:hover .txt3
+{
+color: #fff !important; 
+background: #000; 
+border-color: #000;}
+
+.iconcontainer
+{
+min-width: 100%;
+max-width: 100%;
+
+}
+/* Form section  */
+.cc-section
+{
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/banner.jpg)center center fixed no-repeat;
+   background-size: cover;
+   height: auto;
+
+}
+
+.contact1 
+{
+   background: rgb(0 0 0 / 70%);  
+   text-align: center; 
+   color: #fff !important;
+
+}
+
+.contact1 .ic1
+{
+   margin-bottom: 15px;
+}
+
+.contact1 .ic1 i
+{ 
+   font-size: 35px;
+   line-height: 1;
+   color:#fff;
+}
+
+.contact1 .txt1
+{
+   font-family: 'Merriweather';
+   font-weight: 700;
+   font-size: 16px; 
+   color: #fff !important; 
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   padding-bottom: 15px;
+}
+
+.contact1 .txt2{
+   font-size: 16px;
+    padding-bottom: 20px;
+    color:#fff;
+}
+
+
+.form-control 
+{
+   color: #ffffff !important;
+   background-color: transparent !important;
+}
+
+.text
+{
+   background-color:transparent;
+}
+
+/* footer*/
+.footer
+{
+   padding:200px !important;
+   background-color: #000 !important;
+}
+
+.linksfooter a
+{
+   text-decoration: none;
+   color: rgba(119, 113, 113, 0.54)
+}
+.smallicons i {
+   float: initial;
+   padding-right: 20px;
+   color: #ffffff !important;
+   font-size: 15px;
+   min-width: 33px;
+}
+
+/*Animatii*/
+
+.reveal {
+   position: relative;
+   opacity: 0;
+ }
+ 
+ .reveal.active {
+   opacity: 1;
+ }
+.active.fade-left {
+   animation: fade-left 1s ease-in;
+ }
+ .active.fade-right {
+   animation: fade-right 1s ease-in;
+ }
+
+ @keyframes fade-left {
+   0% {
+     transform: translateX(-100px);
+     opacity: 0;
+   }
+   100% {
+     transform: translateX(0);
+     opacity: 1;
+   }
+ }
+ 
+ @keyframes fade-right {
+   0% {
+     transform: translateX(100px);
+     opacity: 0;
+   }
+   100% {
+     transform: translateX(0);
+     opacity: 1;
+   }
+ }
+
+
+ /* Media query*/
+@media screen and (max-device-width: 480px) { 
+   .banner
+{
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/banner.jpg)center center fixed no-repeat;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+}
+.banner, .order-form
+{
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/banner.jpg)center center fixed no-repeat;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+}
+.cc-counter-section
+{
+   font-family: 'Merriweather', serif;
+   padding:50px;
+   background-color: rgb(0 0 0 / 50%)  !important;
+   box-shadow: 1px 1px 3px rgba(255,255,255,0.54);
+   color:white;
+   border-bottom: 1px solid transparent;
+}
+.cc-counter-section p
+{
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+
+}
+.cc-counter-section
+{
+   font-family: 'Merriweather', serif;
+   padding:50px;
+   background-color: rgb(0 0 0 / 50%)  !important;
+   box-shadow: 1px 1px 3px rgba(255,255,255,0.54);
+   color:white;
+   border-bottom: 1px solid transparent;
+}
+.cc-counter-section p
+{
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+}
+.cc-section{
+   width: 100%;
+}
+}
+

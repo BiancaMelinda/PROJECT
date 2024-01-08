@@ -1,0 +1,217 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+* {
+   font-family: 'Merriweather';
+   }
+   
+.merriweather{
+   font-family: 'Merriweather', serif;
+}
+
+html,body{
+   overflow-x:hidden;
+}
+
+h1, h2, h3, h4, h5 {
+   display: block;
+   font-weight: 700;
+   font-size: 16px;
+   color: #232323;
+   line-height: 1;
+   margin: 0;
+   position: relative;
+   text-transform: uppercase;
+   text-align: center;
+   letter-spacing: 2px;
+}
+
+ p {
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+  }
+
+/*  Navbar CSS */
+.cc-navbar {
+   background-color: rgba(0,0,0,0.55);
+   font-family: 'Merriweather', serif;
+   box-shadow: 1px 1px 3px rgba(99, 96, 96, 0.54);
+   z-index: 99;
+   color: #fff !important;
+}
+.cc-navbar .nav-link{
+border-bottom: 1px solid transparent;
+transition: padding-bottom 0.6 ease-in-out, border-color 0.3 ease;
+}
+.nav-link {
+   display: inline-block !important;
+}
+.cc-navbar .nav-link:hover{
+padding-bottom:10px;
+border-bottom-color: rgb(8, 139, 139) !important;
+}
+.navbar-dark .navbar-brand {
+   color: #fff !important;  
+}
+
+/* Banner */
+.banner{
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imgprice/banner\ 2.jpg)center center fixed no-repeat;
+   height: 350px;
+   background-size: cover;
+}
+
+.banner, .order-form{
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imgprice/banner\ 2.jpg)center center fixed no-repeat;
+   height: 350px;
+   background-size: cover;
+
+}
+
+.banner .banner-desc{
+   font-size: 48px;
+   font-weight: 400;
+}
+
+a{
+   text-decoration: none !important;
+   color:rgb(180, 179, 179) !important;
+}
+
+
+/*Price table */
+#pricelist{
+position: relative; 
+background: #fff; 
+
+}
+
+.prices{
+margin-bottom: 30px;
+}
+.prices a{
+display: block; 
+padding: 25px 0 50px; 
+text-decoration: none; 
+background: #fff; 
+border: 1px solid #f0f0f0; 
+text-align: center; 
+position: relative;
+transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
+}
+.prices a:hover{
+background: #fff; z-index: 5;
+-ms-transform: scale(1.02);
+-webkit-transform: scale(1.02);
+transform: scale(1.02);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.prices a .txt1{
+font-size: 16px; 
+color: #35373e;
+font-family: 'Merriweather'; 
+text-transform: uppercase;
+padding-bottom: 20px;
+letter-spacing: 2px;
+}
+
+.prices a .c1{
+position: relative;
+}
+
+.prices a .c1:before{
+   content: '';
+   display: block; 
+   width: 100%;
+   height: 1px;
+   background: #e9eaeb;
+   position: absolute; 
+   left: 0; top: 50%;
+   }
+
+.prices a .txt2{
+   position: relative;
+   display: block; 
+   width: 120px; 
+   height: 120px;
+   margin-left: auto;
+   margin-right: auto;
+   background: #fff; 
+   border-radius:50%; 
+   -webkit-border-radius:50%; 
+   font-size: 30px;
+   line-height: 1.2;
+   color: #fff; 
+   border: 1px solid #e9eaeb;
+   color: #35373e; 
+   padding-top: 30px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+
+.prices a .txt2 span{
+   display: block; 
+   color: #777777;
+    font-size: 14px;
+   }
+
+.prices a ul{
+   padding: 0;
+    margin: 0 0 40px; 
+    list-style: none;
+   }
+
+.prices a ul li{
+   display: block; 
+   border-bottom: 1px solid #f5f5f5; 
+   color: #999999; 
+   padding: 15px 0;
+}
+
+.prices a .txt3{
+   display: inline-block; 
+   font-family: 'Merriweather'; 
+   font-size: 11px; 
+   letter-spacing: 2px; 
+   background: #fff; 
+   color: #35373e; 
+   padding: 13px 40px; 
+   border: 1px solid #e8e8e8; 
+   text-transform: uppercase;
+   transition: all 0.3s ease-out; 
+   -moz-transition: all 0.3s ease-out;
+   -webkit-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+}
+
+.prices a:hover .txt3{
+   background: #000; 
+   color: #fff;
+}
+
+
+/* Compare plans*/
+
+
+/* footer*/
+.footer{
+   padding:200px !important;
+   background-color: #000 !important;
+   }
+ .linksfooter a{
+      text-decoration: none;
+      color: rgba(119, 113, 113, 0.54)
+   } 
+ .smallicons i {
+      float: initial;
+      padding-right: 20px;
+      color: #ffffff !important;
+      font-size: 15px;
+      min-width: 33px;
+   }
+
+
+ 

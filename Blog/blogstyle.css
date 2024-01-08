@@ -1,0 +1,323 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+.redressed{
+   font-family: 'Redressed', cursive;
+
+}
+.merriweather{
+   font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4,h5 {
+   display: block;
+   font-family: 'Merriweather';
+   font-weight: 700;
+   font-size: 16px;
+   color: #232323;
+   line-height: 1;
+   padding: 20px;
+   margin: 0;
+   position: relative;
+   text-transform: uppercase;
+   text-align: center;
+   letter-spacing: 2px;
+}
+
+ p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
+
+/*  Navbar CSS */
+.cc-navbar {
+   background-color: rgba(0,0,0,0.55);
+   font-family: 'Merriweather', serif;
+   box-shadow: 1px 1px 3px rgba(99, 96, 96, 0.54);
+   z-index: 99;
+   color: #fff !important;
+}
+
+.cc-navbar .nav-link{
+border-bottom: 1px solid transparent;
+transition: padding-bottom 0.6 ease-in-out, border-color 0.3 ease;
+}
+
+.nav-link {
+   display: inline-block !important;
+}
+.cc-navbar .nav-link:hover{
+padding-bottom:10px;
+border-bottom-color: rgb(8, 139, 139) !important;
+}
+.navbar-dark .navbar-brand {
+   color: #fff !important;
+
+}
+/* Banner */
+.banner{
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img1/banner\ 2.jpg)center center fixed no-repeat;
+   height: 350px;
+   background-size: cover;
+}
+
+.banner, .order-form{
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img1/banner\ 2.jpg)center center fixed no-repeat;
+   height: 350px;
+   background-size: cover;
+
+}
+
+.banner .banner-desc{
+   font-size: 48px;
+   font-weight: 400;
+}
+
+a{
+   text-decoration: none !important;
+   color:rgb(180, 179, 179) !important;
+}
+
+
+/* post */
+.post .post-story .post-story-info {
+   text-align: center;
+   padding: 0 10px 55px;
+   margin-bottom: 20px;
+}
+
+.post .post-story .post-story-info a {
+   display: inline-block;
+   padding-left: 20px;
+   font-family: 'Merriweather';
+   font-size: 10px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #868484;
+   text-decoration: none;
+   letter-spacing: 2px;
+   margin: 0 4px;
+}
+.post .post-story .post-story-body{
+   padding: 0 55px;
+   text-align: center;
+}
+
+.post .post-story .post-story-link {
+   text-align: right;
+   padding: 0 20px 20px;
+}
+
+.btn-default.btn2 {
+   font-family: 'Montserrat';
+   display: inline-block;
+   color: #141414;
+   border: none;
+   font-size: 12px;
+   line-height: 20px;
+   font-weight: 700;
+   padding: 0 30px 0 0;
+   text-decoration: none;
+   border-radius: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   text-transform: uppercase;
+   position: relative;
+   letter-spacing: 1px;
+}
+
+#content {
+   position: relative;
+   padding-top: 30px;
+   background: #fff;
+}
+
+
+ /*Pager count*/
+  .pager {
+   display: flex;
+   text-align: center;
+   font-family: 'Merriweather';
+   font-size: 14px;
+   font-weight: 700;
+}
+
+.pager li.active > a {
+   background: #000;
+   color: #fff;
+   cursor: default;
+}
+.pager li > a {
+   padding: 7px;
+   border-radius: 0px;
+   text-align: left;
+   min-width: 35px;
+   text-decoration: none;
+   border: 1px solid #4c4b4b;
+}
+.pager li > a, .pager li > span {
+   display: inline-block !important;
+  
+}
+.pager li > a:hover{
+   color: #fff; 
+   background: #000;
+}
+
+ul {
+   list-style-type:none;
+}
+
+.latest a .txt1 {
+   color: #4c4b4b;
+   font-weight: 700;
+   font-size: 13px;
+   margin-bottom: 11px;
+   padding-left: 15px;
+   border-bottom: 1px rgb(214, 214, 214) inset;
+   font-family:  'Montserrat';
+}
+
+
+/*Side bar */
+.sidebar-block .sidebar-block-title {
+   margin-bottom: 20px;
+   font-family: 'Merriweather';
+   font-size: 16px;
+   line-height: 1;
+   color: #232323;
+   font-weight: 700;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+
+/*Tags*/
+.tags{
+    display: block;
+     margin: 0;
+      padding: 0;
+       list-style: none;
+        text-align: left;
+      }
+
+.tags li{
+   display: inline-block;
+    margin: 0 5px 5px 0px;
+}
+
+.tags li a{
+   display: inline-block;
+   background: #fff;
+   border: 2px solid #4c4b4b;
+   padding: 9px 12px;
+   font-weight: 700;
+   color: #000 !important;
+   text-decoration: none;
+   font-size: 10px;
+   font-family: 'Montserrat';
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+.tags li a:hover{
+   background: #000; 
+   color: #fff !important; 
+   border-color: #000;
+}
+
+
+/* Counter*/    
+
+.counters{ 
+   display: block; 
+   margin: 0; 
+   padding: 0; 
+   list-style: none;
+   text-align: left;
+   }
+
+.counters li{
+   display: block;
+    width: 50%; 
+    float: left;
+   }
+
+.counters li a{
+   display: block; 
+   text-decoration: none;
+    border: 2px solid transparent; 
+    padding: 15px 10px;
+   }
+
+.counters li a:hover{
+   border-color: #000;
+}
+
+.counters li a figure{
+   float: left; 
+   color: #4c4b4b;
+   font-size: 35px; 
+   line-height: 1; 
+   padding-top: 4px;
+}
+.counters li a:hover figure{
+   color: #000;
+}
+.counters li a figure i{
+   font-size: inherit; 
+   line-height: inherit;
+}
+.counters li a .caption{
+overflow: hidden;
+text-align: right;
+color: #494949;
+font-weight: 700;
+text-transform: uppercase; 
+font-family: 'Merriweather'; 
+letter-spacing: 1px;
+}
+
+.counters li a:hover .caption{
+color: #000;
+}
+
+.counters li a .caption .txt1{
+font-size: 15px;
+}
+.counters li a .caption .txt2{
+font-size: 11px;
+}
+
+/* footer*/
+.footer{
+   padding:200px !important;
+   background-color: #000 !important;
+   }
+ .linksfooter a{
+      text-decoration: none;
+      color: rgba(119, 113, 113, 0.54)
+   } 
+ .smallicons i {
+      float: initial;
+      padding-right: 20px;
+      color: #ffffff !important;
+      font-size: 15px;
+      min-width: 33px;
+   }
+
+   .filterelement {
+      display: none; /* Hidden by default */
+    }
+    
+    /* The "show" class is added to the filtered elements */
+    .show {
+      display: block;
+    }
+
+   
+ #container{
+   padding-left: 1px;
+}
+ 

@@ -1,0 +1,659 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+.redressed{
+   font-family: 'Redressed', cursive;
+}
+
+.merriweather{
+   font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4,h5 {
+   display: block;
+   font-family: 'Merriweather';
+   font-weight: 700;
+   font-size: 16px;
+   color: #232323;
+   line-height: 1;
+   padding: 20px;
+   margin: 0;
+   position: relative;
+   text-transform: uppercase;
+   text-align: center;
+   letter-spacing: 2px;
+}
+
+ p {
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+  }
+
+/*  Navbar CSS */
+.cc-navbar {
+   background-color: rgba(0,0,0,0.55);
+   font-family: 'Merriweather', serif;
+   box-shadow: 1px 1px 3px rgba(99, 96, 96, 0.54);
+   z-index: 99;
+   color: #fff !important;
+}
+
+.cc-navbar .nav-link{
+border-bottom: 1px solid transparent;
+transition: padding-bottom 0.6 ease-in-out, border-color 0.3 ease;
+}
+
+.nav-link {
+   display: inline-block !important;
+}
+.cc-navbar .nav-link:hover{
+padding-bottom:10px;
+border-bottom-color: rgb(8, 139, 139) !important;
+}
+.navbar-dark .navbar-brand {
+   color: #fff !important;
+
+}
+/* Banner */
+.banner{
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(moduleimg/banner\ 2.jpg)center center fixed no-repeat;
+   height: 350px;
+   background-size: cover;
+}
+
+.banner, .order-form{
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(moduleimg/banner\ 2.jpg)center center fixed no-repeat;
+   height: 350px;
+   background-size: cover;
+}
+
+.banner .banner-desc{
+   font-size: 48px;
+   font-weight: 400;
+}
+
+a{
+   text-decoration: none !important;
+   color:rgb(180, 179, 179) !important;
+}
+
+.card-body {
+ display: none;
+}
+
+.carousel-indicators {
+   display: none;
+}
+
+.card-img .card-img-top{
+   width: 393px !important;
+   height: 262px !important;
+}
+
+
+.title1 {
+   text-align: center;
+   color: #35373e;
+   font-weight: 700;
+   font-family: 'Montserrat';
+   font-size: 22px;
+   line-height: 1;
+   text-transform: uppercase;
+   padding-top: 20px;
+   padding-bottom: 30px;
+   margin-bottom: 15px;
+   letter-spacing: 2px;
+}
+
+.title2 {
+   text-align: center;
+   color: #777777;
+   font-size: 19px;
+   margin-bottom: 15px;
+}
+
+
+.btn-default.btn2 {
+   font-family: 'Montserrat';
+   display: inline-block;
+   color: #141414 !important;
+   border: none;
+   font-size: 12px;
+   line-height: 20px;
+   font-weight: 700;
+   padding: 0 30px 0 0;
+   text-decoration: none;
+   border-radius: 0px;
+   -moz-border-radius: 0px;
+   -webkit-border-radius: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   text-transform: uppercase;
+   background: right center no-repeat;
+   position: relative;
+   letter-spacing: 1px;
+}
+
+
+/* MODULE 1 */
+
+#module-presentation1{
+   position: relative;
+    background: #f7f8f9;
+     padding: 20px 0 20px;
+   }
+
+#module1_wrapper{
+   position: relative;
+   background: #fff;
+   border-bottom: 1px solid #f0f0f0;
+   padding: 20px;
+}
+
+#module1{
+   position: relative;
+    display: table; 
+    width: 100%;
+   }
+
+#module1 .left_box_wrapper{
+   position: relative; 
+   overflow: hidden; 
+   display: table-cell; 
+   width: 60%;
+}
+
+#module1 .left_box{
+   padding: 70px 50px;
+}
+
+#module1 .right_box_wrapper{
+   position: relative; 
+   overflow: hidden; 
+   display: table-cell; 
+   width: 40%; 
+   background: url(https://img.freepik.com/free-vector/inventory-optimization-isometric-banner_33099-2101.jpg?w=1800&t=st=1704588953~exp=1704589553~hmac=cb644a3) center center no-repeat; 
+   padding: 150px;
+   background-size: 100%;
+
+}
+
+.module1{
+   position: relative; 
+   padding:20px 0px 20px 70px;
+}
+
+.module1:before{
+   content: ''; 
+   display: block; 
+   width: 1px; 
+   height: 100%; 
+   background: url("https://img.freepik.com/free-vector/inventory-optimization-isometric-banner_33099-2101.jpg?w=1800&t=st=1704588953~exp=1704589553~hmac=cb644a3")0 0 no-repeat;
+   background-size: 100% 100%; 
+   position: absolute; left: -15px; top: 0;
+}
+
+.module1:after{
+   content: ''; 
+   display: block; 
+   width: 100%; 
+   height: 1px; 
+   background:url("https://img.freepik.com/free-vector/inventory-optimization-isometric-banner_33099-2101.jpg?w=1800&t=st=1704588953~exp=1704589553~hmac=cb644a3")0 0 no-repeat;
+   background-size: 100% 100%; 
+   position: absolute; left: 0; 
+   bottom: 0;
+}
+.module1.nav1:before, .module1.nav3:before, .module1.nav3:after, .module1.nav4:after{display: none;}
+.module1 .ic1{
+   position: absolute;
+    left: 0; top: 20px;
+   }
+
+.module1 .ic1 i{
+   color: #35373e;
+    font-size: 50px; 
+    line-height: 1;
+   }
+
+.module1 .txt1{
+   font-family: 'Montserrat'; 
+   font-weight: 700; 
+   font-size: 13px; 
+   color: #35373e; 
+   text-transform: uppercase; 
+   letter-spacing: 2px; 
+   padding-bottom: 25px; 
+   margin-bottom: 25px;
+ }
+
+
+/* MODULE 2 */
+#module2{
+   padding:20px;
+   position: relative;
+   display: table; 
+   width: 100%;
+}
+
+#module2_wrapper{
+   position: relative; 
+   background: #f7f8f9 !important;
+}
+
+#module2 .left_box_wrapper{
+   position: relative; 
+   overflow: hidden; 
+   display: table-cell; 
+   width: 50%; 
+   background: url(moduleimg/picture.jpg) center center no-repeat;
+   background-size: cover;
+   vertical-align: middle;
+   background-size: 100%;
+}
+
+
+#module2 .left_box{padding: 110px;}
+#module2 .right_box_wrapper{
+   position: relative; 
+   overflow: hidden; 
+   display: table-cell; 
+   width: 50%; 
+   vertical-align: middle;
+}
+
+#module2 .right_box{
+   padding: 70px;
+   background-color: #fff;
+   padding: 20px;
+}
+
+#module2 .right_box_inner{
+   margin-left: -20px; 
+   margin-right: -20px;
+}
+
+.module2{
+   background: #35373e; 
+   background: rgba(0, 0, 0, 0.6); 
+   padding: 50px; 
+   text-align: center; 
+   color: #fff;
+}
+
+.module2 .ic1{margin-bottom: 10px;}
+.module2 .ic1 i{ 
+   font-size: 35px; 
+   line-height: 1;
+}
+
+.module2 .txt1{
+   font-family: 'Montserrat'; 
+   font-weight: 700; 
+   font-size: 16px; 
+   color: #fff; 
+   text-transform: uppercase; 
+   letter-spacing: 2px; 
+   padding-bottom: 15px;
+}
+.module2 .txt2{
+   font-size: 16px; 
+   padding-bottom: 20px;
+}
+
+
+.module-body1{
+   position: relative; 
+   margin-top: 15px; 
+   margin-bottom: 15px;
+}
+.module-body1 a{
+   display: block;
+   text-decoration: none;
+    border: 1px solid transparent;
+    padding:20px;
+   transition: all 0.3s ease-out; 
+   -moz-transition: all 0.3s ease-out; 
+   -webkit-transition: all 0.3s ease-out; 
+   -o-transition: all 0.3s ease-out;
+}
+
+.module-body1 a:hover{
+   border-color: #000000;
+}
+
+.module-body1 a .ic1{
+   margin-bottom: 10px;
+    color: #6e6e6f;
+   transition: all 0.3s ease-out; 
+   -moz-transition: all 0.3s ease-out; 
+   -webkit-transition: all 0.3s ease-out; 
+   -o-transition: all 0.3s ease-out;
+}
+
+.module-body1 a:hover .ic1{
+   color: #35373e;
+}
+
+.module-body1 a .ic1 i{ 
+   font-size: 35px; 
+   line-height: 1;
+}
+
+.module-body1 a .txt1{
+   font-family: 'Montserrat';
+   font-weight: 400;
+   font-size: 12px; 
+   color: #6e6e6f; 
+   text-transform: uppercase;
+   letter-spacing: 2px; 
+   padding-bottom: 5px;
+   transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out; 
+   -webkit-transition: all 0.3s ease-out; 
+   -o-transition: all 0.3s ease-out;
+}
+
+.module-body1 a:hover .txt1{
+   color: #35373e;
+}
+
+
+/* Module 3*/
+
+#services{
+   position: relative; 
+   background: #f7f8f9; 
+   padding: 80px 0 80px;
+}
+
+#module3_wrapper{
+   position: relative; 
+   background: #fff; 
+   border-bottom: 1px solid #f0f0f0;
+}
+
+#module3{
+   position: relative; 
+   display: table; 
+   width: 100%;
+   padding:20px;
+}
+
+#module3 .left_box_wrapper{
+   position: relative;
+    overflow: hidden; 
+    display: table-cell;
+     width: 60%;
+   }
+
+#module3 .left_box{
+   padding: 70px 50px;
+}
+
+#module3 .right_box_wrapper {
+   position: relative;
+   overflow: hidden;
+   display: table-cell;
+   width: 40%;
+   background: url('moduleimg/photo2.jpg') center;
+  padding: 50px;
+  background-size:cover;
+}
+
+
+
+.module3{
+   position: relative; 
+   padding:20px 0px 20px 70px;
+}
+
+.module3:before{
+   content: ''; 
+   display: block; 
+   width: 1px;
+    height: 100%;  
+    background: url(https://img.freepik.com/free-vector/responsive-design-landing-page-page-construction_33099-1807.jpg?) 0 0 no-repeat; 
+    background-size: 100% 100%;
+     position: absolute; left: -15px; top: 0;
+   }
+
+.module3:after{
+   content: '';
+   display: block;
+   width: 100%;
+   height: 1px;
+   background: url(https://img.freepik.com/free-vector/responsive-design-landing-page-page-construction_33099-1807.jpg?) 0 0 no-repeat; 
+   background-size: 100% 100%; 
+   position: absolute; 
+   left: 0; 
+   bottom: 0;
+  }
+
+.module3.nav1:before, .module3.nav3:before, .module3.nav3:after, .module3.nav4:after{display: none;}
+.module3 .ic1{
+   position: absolute; 
+   left: 0; top: 20px;
+}
+
+.module3 .ic1 i{
+   color: #35373e; 
+   font-size: 40px; 
+   line-height: 1;
+}
+
+.module3 .txt1{
+   font-family: 'Montserrat'; 
+   font-weight: 700; 
+   font-size: 13px; 
+   color: #35373e; 
+   text-transform: uppercase; 
+   letter-spacing: 2px; 
+   padding-bottom: 25px; 
+   margin-bottom: 25px;
+}
+
+/* Module 4*/
+ 
+#module4{
+   padding:20px;
+   position: relative;
+   display: table; 
+   width: 100%;
+}
+
+#module4_wrapper{
+   position: relative; 
+   background: #f7f8f9 !important;
+}
+
+#module4 .left_box_wrapper{
+   position: relative; 
+   overflow: hidden; 
+   display: table-cell; 
+   width: 50%; 
+   background: url('https://img.freepik.com/free-vector/conversion-rate-optimization-isometric-vector-web-banner_33099-1368.jpg?w=996&t=st=1704588266~exp=1704588866~hmac=81d39793b0697caf4a274eeedc4220a3bc52525a01a036ec9d0e87bfd11e7582') center center no-repeat; 
+   vertical-align: middle;
+   background-size: 100%;
+}
+
+#module4 .left_box{padding: 110px;}
+#module4 .right_box_wrapper{
+   position: relative; 
+   overflow: hidden; 
+   display: table-cell; 
+   width: 50%; 
+   vertical-align: middle;
+}
+
+#module4 .right_box{
+   padding: 70px;
+   background-color: #fff;
+}
+
+#module4 .right_box_inner{
+   margin-left: -20px; 
+   margin-right: -20px;
+}
+
+.module4{
+   background: #35373e; 
+   background: rgba(53, 55, 62, 0.6); 
+   padding: 50px; 
+   text-align: center; 
+   color: #fff;
+}
+
+.module4 .ic1{margin-bottom: 10px;}
+.module4 .ic1 i{ 
+   font-size: 35px; 
+   line-height: 1;
+}
+
+.module4 .txt1{
+   font-family: 'Montserrat'; 
+   font-weight: 700; 
+   font-size: 16px; 
+   color: #fff; 
+   text-transform: uppercase; 
+   letter-spacing: 2px; 
+   padding-bottom: 15px;
+}
+.module4 .txt2{
+   font-size: 16px; 
+   padding-bottom: 20px;
+}
+
+
+#module1_wrapper {
+   position: relative;
+   background: #fff !important;
+}
+
+#module2_wrapper {
+   position: relative;
+   background: #fff !important;
+}
+
+#module3_wrapper {
+   position: relative;
+   background: #fff !important;
+}
+
+#module4_wrapper {
+   position: relative;
+   background: #fff !important;
+}
+
+/*----- media queries ------*/
+
+
+/* Default landscape and desktop to large desktop */
+@media (max-width: 1199px) {
+  #module2{
+     display: block;
+   }
+  #module2 .left_box_wrapper{
+     display: block; 
+     width: auto;
+   }
+  #module2 .right_box_wrapper{
+     display: block;
+      width: auto;
+   }
+  #module2 .left_box{
+     padding: 70px;
+   }
+  #module4{
+     display: block;
+   }
+  #module4 .left_box_wrapper{
+     display: block;
+      width: auto;
+   }
+  #module4 .right_box_wrapper{
+     display: block;
+      width: auto;}
+  #module4 .left_box{
+     padding: 70px;
+   }
+   .carousel-indicators {
+   display: none;
+   }
+}
+
+
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 991px) {
+  #module1{
+     display: block;
+   }
+  #module1 .left_box_wrapper{
+     display: block;
+      width: auto;
+   }
+  #module1 .right_box_wrapper{
+     display: block;
+      width: auto; 
+      padding-bottom: 70%;
+   }
+  #module1 .left_box{
+     padding: 50px 30px;
+   }
+  #module3{
+     display: block;
+   }
+  #module3 .left_box_wrapper{
+     display: block;
+      width: auto;
+   }
+  #module3 .right_box_wrapper{
+     display: block; 
+     width: auto;
+      padding-bottom: 70%;}
+  #module3 .left_box{
+     padding: 50px 30px;
+   }
+   .carousel-indicators {
+      display: none;
+      }
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .module1:before{
+     display: none;
+   }
+  .module1:after{
+     display: block!important;
+   }
+  .module3:before{
+     display: none;
+   }
+  .module3:after{
+     display: block!important;
+   }
+  #module2 .left_box{
+     padding: 30px;
+   }
+  #module2 .right_box{
+     padding: 30px;
+   }
+  #module4 .left_box{
+     padding: 30px;
+   }
+  #module4 .right_box{
+     padding: 30px;
+   }
+   .carousel-indicators {
+      display: none;
+      }
+}
+
+.txt-img{
+   display: none;
+}
